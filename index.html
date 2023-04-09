@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Sora:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class=" grid container">
+            <figure class="header__logo">
+                <img class="header__logo-img" src="./assets/img/pokedex.png" alt="pokedex">
+            </figure>
+        </div>
+    </header>
+    <main>
+        <div class="grid container">
+
+            <div class="pokemon">
+                <!-- Search pokemon -->
+                <div class="pokemon-search">
+                    <input class="pokemon-search__name" type="text" id="pokemonName"
+                        placeholder="Type Pokemon name....">
+                    <button class="pokemon-search__btn" id="search">
+                        <lord-icon class="pokemon-search__icon" src="https://cdn.lordicon.com/rlizirgt.json"
+                            trigger="click" colors="primary:#9cf4a7" style="width:50px;height:50px">
+                        </lord-icon>
+                    </button>
+                </div>
+
+                <!-- Pokemon card -->
+                <article class="pokemon-card">
+                </article>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+
+</body>
+
+</html>
